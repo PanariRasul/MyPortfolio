@@ -19,7 +19,7 @@
 
 
 const fileSystem = require ("fs");
-fileSystem.rmfile("noddy.txt", (err,result) => {
+fileSystem.rmdir("bsdk", (err,result) => {
     if(err){
         console.log(err);
     }
